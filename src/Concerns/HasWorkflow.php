@@ -10,5 +10,8 @@ namespace Modiamir\Concerns;
 
 trait HasWorkflow
 {
+    public function can()
+    {
 
+    }
 }

@@ -22,6 +22,9 @@
             "providers": [
                 "Modiamir\\WorkflowServiceProvider"
             ]
+        },
+        "aliases": {
+            "WorkflowRegistry": "Modiamir\\Facades\\WorkflowRegistry"
         }
     }
 }
