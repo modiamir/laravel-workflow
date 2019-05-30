@@ -1,0 +1,27 @@
+{
+    "name": "modiamir/laravel-workflow",
+    "description": "Adds Symfony Workflow component to Laravel framework",
+    "type": "library",
+    "require": {
+        "symfony/workflow": "^4.2",
+        "symfony/config": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modiamir\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "Amir Modarresi",
+            "email": "amir.modarresi.13@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Modiamir\\WorkflowServiceProvider"
+            ]
+        }
+    }
+}
