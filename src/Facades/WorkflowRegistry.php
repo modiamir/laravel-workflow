@@ -5,7 +5,7 @@
  * Time: 3:23 PM
  */
 
-namespace Modiamir;
+namespace Modiamir\Facades;
 
 use Illuminate\Support\Facades\Facade;
 use Symfony\Component\Workflow\Workflow;
